@@ -1,0 +1,34 @@
+table, td{
+    margin:auto;
+    margin-top:20px;
+}
+tr:nth-child(2){
+    border:1px solid #ddd;
+    border-right:0px;
+    border-left:0px;
+}
+td:nth-child(2){
+    border:1px solid #ddd;
+    border-top:0px;
+    border-bottom:0px;
+}
+td{
+    width:150px;
+    height:150px;
+    font-size:80px;
+    text-align:center;
+}
+.avoid-clicks {
+  pointer-events: none; 
+  user-select: none; 
+}
+.avoid-clicks2 {
+  pointer-events: none; 
+  user-select: none; 
+}
+.modal-body.hide{
+    display:none;
+}
+.btn-mobile{
+    font-size:10px;
+}
